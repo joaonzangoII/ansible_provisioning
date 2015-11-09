@@ -1,0 +1,10 @@
+---
+ - hosts: web
+   sudo: yes
+   user: root
+   roles:
+    - nginx
+    - users
+    - php
+    - composer
+    - postgres

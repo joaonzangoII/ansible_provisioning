@@ -1,0 +1,9 @@
+---
+server:
+  install: '1'
+  timezone: UTC
+  locale: en_US.UTF-8
+php:
+  install: '1'
+  ppa: php5-5.6
+  packages: [php5-cli, php5-intl, php5-mcrypt, php5-mysql]
